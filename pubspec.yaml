@@ -1,0 +1,73 @@
+name: student_productivity_tracker
+description: AI Powered Student Productivity Tracker
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.7.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Icons
+  cupertino_icons: ^1.0.8
+  font_awesome_flutter: ^10.7.0
+
+  # HTTP
+  http: ^1.2.2
+
+  # Firebase
+  firebase_core: ^3.15.1
+  firebase_auth: ^5.6.2
+  cloud_firestore: ^5.6.11
+  firebase_storage: ^12.4.9
+
+  # State Management
+  provider: ^6.1.2
+
+  # Local Storage
+  shared_preferences: ^2.3.2
+
+  # UI
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+  glassmorphism: ^3.0.0
+  lottie: ^3.3.1
+
+  # Charts
+  fl_chart: ^0.69.0
+  percent_indicator: ^4.2.3
+
+  # Calendar
+  table_calendar: ^3.1.2
+
+  # Date & Time
+  intl: ^0.19.0
+  timezone: ^0.10.0
+
+  # Notifications
+  flutter_local_notifications: ^20.1.0
+
+  # Animation
+  animated_text_kit: ^4.2.2
+  sleek_circular_slider: ^2.0.1
+
+  # Utilities
+  uuid: ^4.5.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/animations/
